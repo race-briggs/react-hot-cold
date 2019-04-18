@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GuessList from './guess-list';
+import InfoSection from './info-section';
 
-describe(<GuessList/>, () => {
+describe('<InfoSection/>', () => {
 	it('should render without crashing', () => {
-		shallow(<GuessList/>);
+		shallow(<InfoSection/>);
 	})
 })

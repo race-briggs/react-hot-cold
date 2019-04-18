@@ -1,10 +1,10 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 
-import GuessList from './guess-list';
+import TopNav from './top-nav';
 
-describe(<GuessList/>, () => {
+describe('<TopNav/>', () => {
 	it('should render without crashing', () => {
-		shallow(<GuessList/>);
-	})
-})
+		shallow(<TopNav/>);
+	});
+});
